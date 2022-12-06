@@ -1,0 +1,116 @@
+.logo {
+    width: 8%;
+}
+
+a.menu {
+    text-decoration: none;
+    color: black;
+}
+header {
+    display: flex;
+    flex-direction: row;
+}
+.menu {
+    align-items: flex-end;
+}
+.filter {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+} 
+
+a.filtre{
+    text-decoration: none;
+    color: black;  
+}
+
+a.filtre:hover{
+    color: #0064FA;
+}
+
+.filter a{
+	text-decoration: none;
+	color: #000;
+	font-family: 'Raleway', sans-serif;
+	background-color: #fff;
+	border-radius: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.filter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Familial{
+    border-width:1px;
+    border-color:black;
+    border-style: solid;
+    border-radius: 40px; 
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+}
+
+.Romantique {
+    border-width:1px;
+    border-color:black;
+    border-style: solid;
+    border-radius: 40px; 
+    display: flex;
+    flex-direction: row;
+}
+
+.Economique {
+    border-width:1px;
+    border-color:black;
+    border-style: solid;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.Animaux {
+    border-width:1px;
+    border-color:black;
+    border-style: solid;
+    border-radius: 40px; 
+    display: flex;
+    flex-direction: row;
+}
+
+.ic-animaux {
+    color: #0064FA;
+    background-color: #DEEBFF;
+    border-radius: 40px;
+    width: 30px;
+    height: 30px;
+}
+
+.ic-famille {
+    color: #0064FA;
+    background-color: #DEEBFF;
+    border-radius: 40px;
+    width: 30px;
+    height: 30px;
+}
+
+.ic-romantique {
+    color: #0064FA;
+    background-color: #DEEBFF;
+    border-radius: 40px;
+    width: 30px;
+    height: 30px;
+}
+
+.ic-economique {
+    color: #0064FA;
+    background-color: #DEEBFF;
+    border-radius: 40px;
+    width: 30px;
+    height: 30px;
+}
+
