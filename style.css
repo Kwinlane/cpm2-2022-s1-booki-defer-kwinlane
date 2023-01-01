@@ -56,22 +56,31 @@ html,body {
 .button-search {
     height: 50px;
     width: 120px;
-    
     display: flex;
     justify-content: center;
     align-items: center;
     color: #fff;
     background-color: #0065fc;
-    cursor: pointer;
     border-radius: 0 10px 10px 0;
   }
 
-/*Filtre */
+  a.decoWhite {
+    text-decoration: none;
+    color: #fff;
+  }
+
+/*Filtres */
+
 .filter {
     display: flex;
-    flex-direction: row;
-    text-decoration: none;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
 } 
+
+.Filtre {
+    margin-right: 20px;
+}
 
 a.filtre{
     text-decoration: none;
@@ -80,6 +89,11 @@ a.filtre{
 
 a.filtre:hover{
     color: #0064FA;
+}
+
+.filtre{
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .filter a{
@@ -93,78 +107,116 @@ a.filtre:hover{
     justify-content: space-between;
 }
 
-.filter {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
 .Familial{
-    border-width:1px;
-    border-color:black;
+    border-width:2px;
+    border-color: #f2f2f2;
     border-style: solid;
     border-radius: 40px; 
+    height: 50px;
+    margin-right: 20px;
     display: flex;
-    flex-direction: row;
-    height: 30px;
+    justify-content:center;
+    align-items: center;
 }
 
 .Romantique {
-    border-width:1px;
-    border-color:black;
+    border-width:2px;
+    border-color:#f2f2f2;
     border-style: solid;
-    border-radius: 40px; 
+    border-radius: 40px;
+    height: 50px;
+    margin-right: 20px;
     display: flex;
-    flex-direction: row;
+    justify-content:center;
+    align-items: center;
 }
 
 .Economique {
-    border-width:1px;
-    border-color:black;
+    border-width:2px;
+    border-color:#f2f2f2;
     border-style: solid;
     border-radius: 40px;
+    height: 50px;
+    margin-right: 20px;
     display: flex;
-    flex-direction: row;
+    justify-content:center;
+    align-items: center;
 }
 
 .Animaux {
-    border-width:1px;
-    border-color:black;
+    border-width:2px;
+    border-color:#f2f2f2;
     border-style: solid;
-    border-radius: 40px; 
+    border-radius: 40px;
+    height: 50px;
+    margin-right: 20px;
     display: flex;
-    flex-direction: row;
+    justify-content:center;
+    align-items: center;
 }
 
 .ic-animaux {
     color: #0064FA;
     background-color: #DEEBFF;
     border-radius: 40px;
-    width: 30px;
-    height: 30px;
+    width: 52px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .ic-famille {
     color: #0064FA;
     background-color: #DEEBFF;
     border-radius: 40px;
-    width: 30px;
-    height: 30px;
+    width: 52px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .ic-romantique {
     color: #0064FA;
     background-color: #DEEBFF;
     border-radius: 40px;
-    width: 30px;
-    height: 30px;
+    width: 52px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .ic-economique {
     color: #0064FA;
     background-color: #DEEBFF;
     border-radius: 40px;
-    width: 30px;
-    height: 30px;
+    width: 52px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.ic-animaux:hover{
+    color: #fff;
+    background-color: #0065fc
+}
+
+.ic-famille:hover{
+    color: #fff;
+    background-color: #0065fc
+}
+
+.ic-romantique:hover{
+    color: #fff;
+    background-color: #0065fc
+}
+
+.ic-economique:hover{
+    color: #fff;
+    background-color: #0065fc
+}
+
 
