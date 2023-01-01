@@ -524,3 +524,12 @@ a.filtre:hover{
     align-items: center;
 
 }
+
+/* Etoile */
+.fa-star{
+    color: #0065fc;
+}
+
+.gris{
+    color: #f2f2f2;
+}
