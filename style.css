@@ -1,18 +1,21 @@
 /*header*/
-.logo {
-    width: 8%;
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-a.menu {
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 45%;
+}
+
+.deco{
     text-decoration: none;
     color: black;
-}
-header {
-    display: flex;
-    flex-direction: row;
-}
-.menu {
-    align-items: flex-end;
 }
 
 .recherche {
