@@ -533,3 +533,28 @@ a.filtre:hover{
 .gris{
     color: #f2f2f2;
 }
+
+/* Footer */
+
+footer{
+    width: 100%;
+    height: 600px;
+    background-color: #f2f2f2;
+}
+
+.foot{
+    display: flex;
+    flex-direction: column; 
+}
+
+.foot a{
+    text-decoration: none;
+    color: #000;
+    margin-bottom: 8px;
+}
+
+.footRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
