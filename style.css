@@ -360,16 +360,12 @@ a.filtre:hover{
 }
 
 .img-populaire-1{
-    background-image: url("./images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
     width: 35%;
     height: 160px;
-    background-size: cover;
-    background-position: center;
     border-radius: 15px 0 0 15px;
 }
 
 .img-populaire-2{
-    background-image: url("./images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
     width: 35%;
     height: 160px;
     background-size: cover;
@@ -377,7 +373,6 @@ a.filtre:hover{
     border-radius: 15px 0 0 15px;
 }
 .img-populaire-3{
-    background-image: url("./images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
     width: 35%;
     height: 160px;
     background-size: cover;
