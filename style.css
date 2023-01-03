@@ -269,25 +269,18 @@ a.filtre:hover{
 }
 
 .img-hebergement-1{
-    background-image: url("./images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
     width: 100%;
     height: 120px;
-    background-size: cover;
-    background-position: center;
     border-radius: 15px 15px 0 0;
 }
 
 .img-hebergement-2{
-    background-image: url("./images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
     width: 100%;
     height: 120px;
-    background-size: cover;
-    background-position: center;
     border-radius: 15px 15px 0 0;
 }
 
 .img-hebergement-3{
-    background-image: url("./images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
     width: 100%;
     height: 120px;
     background-size: cover;
@@ -296,7 +289,6 @@ a.filtre:hover{
 }
 
 .img-hebergement-4{
-    background-image: url("./images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
     width: 100%;
     height: 120px;
     background-size: cover;
@@ -305,7 +297,6 @@ a.filtre:hover{
 }
 
 .img-hebergement-5{
-    background-image: url("./images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
     width: 100%;
     height: 120px;
     background-size: cover;
@@ -314,7 +305,6 @@ a.filtre:hover{
 }
 
 .img-hebergement-6{
-    background-image: url("./images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
     width: 100%;
     height: 120px;
     background-size: cover;
