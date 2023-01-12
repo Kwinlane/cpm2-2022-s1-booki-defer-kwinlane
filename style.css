@@ -71,14 +71,14 @@ html,body {
 
 /*Filtres */
 
-.filter {
+.Contenairfilter {
     display: flex;
     align-items: center;
     margin-top: 40px;
     margin-bottom: 40px;
 } 
 
-.Filtre {
+.FiltreTitre {
     margin-right: 20px;
 }
 
@@ -312,14 +312,14 @@ a.filtre:hover{
     border-radius: 15px 15px 0 0;
 }
 
-.lot-1{
+.hebergementSupérieur{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 10px;
 }
 
-.lot-2{
+.hebergementInférieur{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -407,7 +407,7 @@ a.filtre:hover{
 
 /* Activités*/
 
-.activité{
+.SectionActivité{
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -491,7 +491,7 @@ a.filtre:hover{
     width: 95%;
 }
 
-.Activité-lot-2{
+.Activité-lot-2-petite{
     width: 48%;
     height: 600px;
     display: flex;
@@ -499,7 +499,7 @@ a.filtre:hover{
     justify-content: space-between;
 }
 
-.carte-activité-petit{
+.carte-activité-petite{
     width: 100%;
     border-radius: 15px;
     box-shadow: 5px 5px 5px 1px #f2f2f2;
