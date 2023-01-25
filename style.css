@@ -69,7 +69,11 @@ html,body {
     border-radius: 0 10px 10px 0;
   }
 
-  a.decoWhite {
+.button-search:hover{
+    background-color: #03224c;
+}
+
+a.decoWhite {
     text-decoration: none;
     color: #fff;
   }
@@ -343,6 +347,11 @@ a.filtre:hover{
     align-items: center;
 }
 
+.carte-logement:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
 .detailLogement{
     width: 90%;
 }
@@ -350,6 +359,8 @@ a.filtre:hover{
 .plus{
     font-weight: bold;
 }
+
+
 
 /* Populaire */
 
@@ -395,6 +406,11 @@ a.filtre:hover{
     border-radius: 20px;
 }
 
+.carte-populaire:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
 .detailPopulaire{
     width: 60%;
     padding-left: 5%;
@@ -415,6 +431,8 @@ a.filtre:hover{
 .SectionActivité{
     margin-top: 50px;
     margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
 }
 
 .Activité{
@@ -487,6 +505,11 @@ a.filtre:hover{
     align-items: center;
 }
 
+.carte-activité:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
 .tit-activité{
     height: 70px;
     display: flex;
@@ -513,6 +536,11 @@ a.filtre:hover{
     justify-content: center;
     align-items: center;
 
+}
+
+.carte-activité-petite:hover{
+    cursor: pointer;
+    transform: scale(1.05);
 }
 
 /* Etoile */
@@ -549,3 +577,72 @@ footer{
     justify-content: space-around;
 }
 
+/*Responsive Téléphone*/
+
+
+@media screen and (max-width: 768px){
+    .Contenairfilter{
+        flex-wrap: wrap;
+    }
+    .Logements{
+        display: flex;
+        flex-direction: column;
+    }
+    .hebergementSupérieur{
+        flex-direction: column;
+        height: auto;
+    }
+    .hebergementInférieur{
+        flex-direction: column;
+        height: auto;
+    }
+    .carte-logement{
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .Hebergement{
+        margin-bottom: 50px;
+        width: 80%;
+        margin-right: 0px;
+    }
+    .Populaire{
+        width: 80%;
+        margin-right: 0px;
+        padding-bottom: 50px;
+        margin-left: 0px;
+    }
+    .carte-populaire{
+        height: auto;
+    }
+    .img-populaire-1,.img-populaire-2,.img-populaire-3{
+        height: 125px;
+    }
+    .SectionActivité{
+        flex-direction: column;
+        height: auto;
+    }
+    .carte-activité{
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .carte-activité-petite{
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .Activité{
+        flex-direction: column;
+        height: auto;
+    }
+    .Activité-lot-2-petite{
+        width: 100%;
+    }
+    .img-activité-1,.img-activité-2,.img-activité-3,.img-activité-4,.img-activité-5,.img-activité-6{
+        height: 200px;
+    }
+    .footRow{
+        flex-direction: column;
+        margin-left: 15px;
+    }
+}
+
+    
