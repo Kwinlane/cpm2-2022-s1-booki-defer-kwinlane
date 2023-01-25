@@ -22,8 +22,13 @@ html,body {
 .deco{
     text-decoration: none;
     color: black;
+    border-top: 2px solid #fff;
 }
 
+.deco:hover{
+    border-top: 2px solid #0065fc;
+    color: #0065fc;
+}
 .recherche {
     width: 400px;
     border-radius: 10px;
@@ -543,3 +548,4 @@ footer{
     flex-direction: row;
     justify-content: space-around;
 }
+
